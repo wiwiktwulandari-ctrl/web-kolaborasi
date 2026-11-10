@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Daur Ulang Menjadi Cemerlang</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BAGIAN HEADER -->
+
+    <header>
+        <div class="logo">
+            <h2>Daur Ulang</h2>
+        </div>
+
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#produk">Produk</a>
+            <a href="#mapel">Mapel Kolaboratif</a>
+            <a href="#anggota">Anggota</a>
+        </nav>
+    </header>
+
+
+    <!-- BAGIAN HALAMAN UTAMA -->
+
+    <section class="beranda" id="beranda">
+
+        <div class="background"></div>
+
+        <div class="konten">
+
+            <div class="judul-kecil">
+                <span>ECO PROJECT 2026</span>
+            </div>
+
+            <h1>
+                Daur Ulang
+                <br>
+                Menjadi
+                <span>Cemerlang</span>
+            </h1>
+
+            <p>
+                Mengubah barang bekas menjadi karya yang
+                bermanfaat melalui prinsip 3R <i>(Reduce, Reuse, Recycle)</i>
+                dan memiliki nilai guna.
+                Melalui kreativitas, kita dapat menjaga
+                lingkungan sekaligus menciptakan sesuatu
+                yang lebih berharga.
+            </p>
+
+            <div class="identitas">
+                <h3>KELOMPOK 5 - X PPLG 1</h3>
+
+                <p>
+                    Kreativitas, kepedulian, dan aksi
+                    nyata untuk lingkungan.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+<!--  TENTANG -->
+
+<section class="halaman-tentang" id="tentang">
+</section>
+   <!-- TENTANG -->
+        <section class="tentang" id="tentang">
+            <div class="container">
+                <span class="badge-tengah">MENGENAL PRINSIP 3R</span>
+                <h2>Mengubah Sampah <span class="biru-hijau">Menjadi Manfaat</span></h2>
+                <p class="subjudul">Mengolah sampah dengan benar, dapat menciptakan karya yang cemerlang.</p>
+        
+                <div class="kartu-tentang">
+                    <!-- REDUCE -->
+                    <div class="card reveal">
+                        <div class="icon">♻️</div>
+                        <h3>1. Reduce</h3>
+                        <span class="label">Mengurangi</span>
+                        <p>Mengurangi penggunaan barang sekali pakai seperti botol plastik dan kantong kresek agar sampah tidak
+                            menumpuk sejak awal.</p>
+                    </div>
+                    <!-- REUSE -->
+                    <div class="card reveal">
+                        <div class="icon">🔄</div>
+                        <h3>2. Reuse</h3>
+                        <span class="label">Menggunakan Kembali</span>
+                        <p>Memanfaatkan kembali barang bekas yang masih layak. Contohnya botol bekas yang kita ubah menjadi alat
+                            penyiram tanaman otomatis.</p>
+                    </div>
+                    <!-- RECYCLE -->
+                    <div class="card reveal">
+                        <div class="icon">🌱</div>
+                        <h3>3. Recycle</h3>
+                        <span class="label">Mendaur Ulang</span>
+                        <p>Mengolah sampah menjadi produk baru yang lebih berguna dan memiliki nilai jual, sehingga tidak
+                            berakhir di tempat sampah.</p>
+                    </div>
+                </div>
+        
+                <!-- ANALISIS MASALAH -->
+                <div class="analisis reveal">
+                    <div class="analisis-kiri">
+                        <span class="badge-kecil">ANALISIS MASALAH</span>
+                        <h3>Kenapa Sampah Bekas Menjadi Masalah Besar?</h3>
+                    </div>
+                    <div class="analisis-kanan">
+                        <p>
+                            Setiap hari, lingkungan kita dipenuhi oleh sampah botol plastik, galon bekas, dan wadah minuman yang
+                            dibuang begitu saja. Sampah-sampah ini sulit terurai, membutuhkan waktu ratusan tahun untuk hancur,
+                            dan akhirnya mencemari tanah, air, serta merusak keindahan lingkungan sekolah dan rumah kita.
+                        </p>
+
+                        <p>
+                            Di sisi lain, banyak tanaman di rumah dan sekolah yang sering layu bahkan mati hanya karena lupa
+                            disiram. Air yang digunakan untuk menyiram pun sering terbuang sia-sia karena tidak terkontrol.
+                        </p>
+
+                        <p class="solusi">
+                            <b>Karena itu, kami menciptakan solusi dari dua masalah ini:</b> mengubah barang bekas yang tidak
+                            terpakai menjadi barang yang lebih berguna dan bernilai jual. 
+                            dengan memanfaatkan sampah yang awalnya dianggap tidak berguna,
+                            kita dapat mengubahnya menjadi barang yang lebih bermanfaat,
+                            sekaligus mengurangi tumpukan sampah di lingkungan kita.
+                        </p>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        
+        <script>
+            // Animasi muncul saat di-scroll
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('muncul');
+                    }
+                });
+            });
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        </script>
+
+        
+        <!-- PRODUK  -->
+        <div class="produk" id="produk">
+
+            <!-- JUDUL PRODUK KAMI -->
+            <div class="judul-produk">
+                <span class="garis-kecil"></span>
+                <h2>Produk <span>Kami</span></h2>
+                <p>Produk daur ulang jadi <b>cemerlang</b></p>
+                <span class="garis-kecil"></span>
+            </div>
+            
+            <!-- PRODUK -->
+            <div class="produk" id="produk">
+                <!-- kartu-kartu produk mu neng kene, ojo dihapus -->
+            </div>
+        
+            <div class="kartu" onclick="lihat(1)">
+                <img src="./images/mesin-penyiraman.jpg" alt="Penyiram Tanaman">
+                <div class="isi-kartu">
+                    <span class="kategori">E-WASTE</span>
+                    <h3>Penyiram Tanaman Otomatis</h3>
+                    <p>Alat berbasis sensor yang menyiram secara otomatis saat tanah kering dan berhenti saat tanah sudah cukup
+                        basah.</p>
+                    <div class="lihat">Lihat detail ↗</div>
+                </div>
+            </div>
+        
+            <div class="kartu" onclick="lihat(2)">
+                <img src="./images/kucing.jpg" alt="Tempat Pensil">
+                <div class="isi-kartu">
+                    <span class="kategori">KERTAS</span>
+                    <h3>Tempat Pensil Gulungan Tisu</h3>
+                    <p>Wadah penyimpanan berbentuk tabung dari gulungan tisu bekas untuk menyimpan alat tulis.</p>
+                    <div class="lihat">Lihat detail ↗</div>
+                </div>
+            </div>
+        
+            <div class="kartu" onclick="lihat(3)">
+                <img src="./images/pot.webp" alt="Pot Bunga">
+                <div class="isi-kartu">
+                    <span class="kategori">PLASTIK GUNA ULANG</span>
+                    <h3>Pot Bunga Botol Plastik</h3>
+                    <p>Media tanam yang dibuat dari potongan sampah botol plastik.</p>
+                    <div class="lihat">Lihat detail ↗</div>
+                </div>
+            </div>
+        
+            <div class="kartu" onclick="lihat(4)">
+                <img src="./images/coaster.jpg" alt="Coaster">
+                <div class="isi-kartu">
+                    <span class="kategori">PLASTIK GUNA ULANG</span>
+                    <h3>Coaster Tutup Botol Plastik</h3>
+                    <p>Tatakan datar tahan air yang dibuat dari susunan atau lelehan tutup botol plastik bekas.</p>
+                    <div class="lihat">Lihat detail ↗</div>
+                </div>
+            </div>
+        
+            <div class="kartu" onclick="lihat(5)">
+                <img src="./images/bunga.jpeg" alt="Bunga Hias">
+                <div class="isi-kartu">
+                    <span class="kategori">PLASTIK GUNA ULANG</span>
+                    <h3>Bunga Hias Sedotan Plastik</h3>
+                    <p>Kerajinan tangan berbentuk bunga lavender dari sampah sedotan untuk pajangan / hiasan.</p>
+                    <div class="lihat">Lihat detail ↗</div>
+                </div>
+            </div>
+        
+            <div class="kartu" onclick="lihat(6)">
+                <img src="./images/ganci.jpeg" alt="Gantungan Kunci">
+                <div class="isi-kartu">
+                    <span class="kategori">LOGAM</span>
+                    <h3>Gantungan Kunci Vintage</h3>
+                    <p>Aksesoris gantungan kunci yang memanfaatkan tutup botol logam bekas.</p>
+                    <div class="lihat">Lihat detail ↗</div>
+                </div>
+            </div>
+        
+        </div>
+        
+        <!-- POPUP DETAIL -->
+        <div id="detail" class="detail-bg" onclick="tutupLuar(event)">
+            <div class="detail-kotak">
+                <span class="close" onclick="tutupDetail()">×</span>
+                <img id="d-gambar" src="">
+                <span id="d-kategori" class="kategori"></span>
+                <h2 id="d-judul"></h2>
+                <h4>Ulasan Produk</h4>
+                <p id="d-ulasan"></p>
+                <h4>Manfaat Produk</h4>
+                <p id="d-manfaat"></p>
+                <h4>Alat dan Bahan</h4>
+                <p id="d-alat"></p>
+                <h4>Langkah Pembuatan</h4>
+                <p id="d-langkah"></p>
+                <div class="box-harga">
+                    <p><b>Modal Pembuatan :</b> <span id="d-modal"></span></p>
+                    <p><b>Harga Jual :</b> <span id="d-harga"></span></p>
+                    <p><b>Laba :</b> <span id="d-laba"></span></p>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            var data = {
+                1: {
+
+                    kategori: "E-WASTE • PRODUK UTAMA",
+                    judul: "Penyiram Tanaman Otomatis",
+                    ulasan: "Merupakan alat berbasis sensor dan mikrokontroler yang menyiram secara otomatis. Alat ini memanfaatkan komponen elektronik bekas (seperti adaptor/charger HP bekas dan botol plastik) yang dipadukan dengan sensor kelembapan tanah analog dan modul saklar otomatis (relay). Alat ini dirancang bekerja secara otomatis menyiram tanaman saat tanah kering dan berhenti saat tanah sudah cukup basah.",
+                    manfaat: "Membantu menjaga kelembapan tanaman secara konsisten, menghemat waktu karena tidak perlu menyiram setiap hari, menghemat penggunaan air karena hanya menyiram saat tanah kering, dan membantu tanaman tidak layu atau mati saat pemiliknya sibuk atau bepergian.",
+                    alat: "<b>Alat :</b><br>1. Gunting / cutter<br>2. Isolasi listrik (solder)<br>3. Lem tembak<br>4. Obeng kecil<br><br><b>Bahan :</b><br>1. Sensor kelembapan tanah<br>2. Relay 5V<br>3. Pompa air mini DC 3V - 6V<br>4. Charger HP bekas<br>5. Kabel jumper / kabel bekas<br>6. Selang air kecil<br>7. Botol plastik bekas<br>8. Baterai 9V",
+                    langkah: "1. Siapkan kabel charger HP bekas, lalu potong bagian colokan yang menuju ke HP (ujung Micro-USB / Type-C), kupas kulit luar kabel sepanjang 3 cm hingga terlihat kawat-kawat di dalamnya.<br>2. Ciri-ciri kawat utama : Warna Merah = Kutub Positif (+ / VCC), Warna Hitam = Kutub Negatif (- / GND).<br>3. Hubungkan Sensor Kelembapan ke Modul Relay, 2 pin dari garpu sensor kelembapan tanah ke modul kontrolnya menggunakan 2 helai kabel jumper.<br>4. Perhatikan pin pada modul relay / sensor : VCC = Jalur listrik positif (+), GND = Jalur listrik negatif (-), DO (Digital Output) = Jalur sinyal pemicu.<br>5. Sambungan Daya : Hubungkan Kabel Merah (+) dari charger ke pin VCC pada modul relay. Hubungkan Kabel Hitam (-) dari charger ke pin GND pada modul relay dan juga ke Kabel Negatif (-) Pompa Air.<br>6. Sambungan saklar relay ke pompa air, kendurkan baut terminal relay berlabel COM (Common) dan NO (Normally Open) menggunakan obeng kecil.<br>7. Ambil sambungan kabel Merah (+) dari charger, masukkan juga ke terminal COM pada relay, lalu kencangkan bautnya.<br>8. Hubungkan Kabel Positif (+) Pompa Air ke terminal NO pada relay, lalu kencangkan bautnya.<br>9. Lubangi tutup botol plastik bekas seukuran diameter selang air, masukkan selang air ke dalam lubang tutup botol hingga menyambung ke mulut output Pompa Air Mini, rekatkan selang dan tutup botol menggunakan lem tembak agar kedap air dan selang tidak lepas, lalu isi botol bekas dengan air bersih, kemudian masukkan pompa mini ke dasar botol dan tutup rapat-rapat.<br>10. Tancapkan garpu sensor kelembapan ke tanah dalam pot yang dalam kondisi kering, colokkan charger HP ke stopkontak listrik, bila dalam kondisi tanah kering pompa belum menyala, ambil obeng kecil dan putar potensiometer (baut pemutar kecil warna biru di modul) secara perlahan sampai relay berbunyi 'klik' dan pompa air mulai menyala.<br>11. Tes dengan menyiram tanah atau mencelupkan sensor ke wadah berisi air : Saat sensor terkena air / tanah basah, relay harus berbunyi 'klik' dan pompa akan otomatis mati.",
+                    modal: "Rp 20.000 (Sensor kelembapan tanah Rp 15.000 + Relay 5V Rp 5.000)",
+                    harga: "Rp 35.000",
+                    laba: "Rp 35.000 - Rp 20.000 = Rp 15.000 per unit"
+                },
+                2: {
+                    kategori: "KERTAS",
+                    judul: "Tempat Pensil dari Gulungan Tisu Toilet",
+                    ulasan: "Merupakan wadah penyimpanan berbentuk tabung berbahan dasar gulungan tisu bekas yang berfungsi sebagai penyimpanan alat tulis.",
+                    manfaat: "Memanfaatkan gulungan tisu bekas agar tidak menjadi sampah, menyediakan tempat penyimpanan alat tulis yang murah dan lucu, serta melatih kreativitas menghias barang bekas.",
+                    alat: "<b>Alat :</b><br>1. Gunting<br><br><b>Bahan :</b><br>1. 1 buah gulungan tisu toilet bekas<br>2. Kertas origami atau kertas hias sisa<br>3. Potongan kardus bekas (untuk alas)",
+                    langkah: "1. Lapisi seluruh badan gulungan tisu toilet menggunakan kertas origami dengan bantuan lem kertas.<br>2. Beri lem pada lingkaran bawah gulungan tisu, lalu tempelkan secara berdiri di atas potongan kardus bekas.<br>3. Setelah lem mengering, gunting kardus mengikuti bentuk lingkaran gulungan tisu agar rapi.<br>4. Gunting kertas origami warna lain untuk membentuk mata, senyuman, atau motif lucu, lalu tempelkan sebagai hiasan.",
+                    modal: "Rp 1.500 (Kertas origami Rp 1.500)",
+                    harga: "Rp 5.000",
+                    laba: "Rp 5.000 - Rp 1.500 = Rp 3.500 per unit"
+                },
+                3: {
+                    kategori: "PLASTIK GUNA ULANG",
+                    judul: "Pot Bunga dari Botol Plastik Bekas",
+                    ulasan: "Merupakan media tanam yang dibuat dari potongan sampah botol plastik.",
+                    manfaat: "Mengurangi sampah botol plastik, menyediakan media tanam yang murah dan menarik, serta mempercantik ruangan dengan pot bunga bermotif hewan lucu.",
+                    alat: "<b>Alat :</b><br>1. Gunting / cutter<br><br><b>Bahan :</b><br>1. Botol plastik bekas (1.5 Liter)<br>2. Cat akrilik & kuas<br>3. Tanah dan tanaman kecil",
+                    langkah: "1. Pembersihan : Cuci bersih botol plastik bekas dan lepaskan label kemasannya.<br>2. Pemotongan : Potong botol plastik menjadi dua bagian menggunakan cutter / gunting (buat pola telinga kelinci / kucing pada bagian atas potongannya jika ingin lebih menarik).<br>3. Pengecatan : Cat seluruh permukaan luar botol dengan cat akrilik sesuai warna kesukaan (misal : putih dasar), lalu gambar wajah hewan lucu dengan mengoleskan cat warna lain.<br>4. Pengeringan : Jemur hingga cat mengering sempurna.<br>5. Finishing : Lubangi bagian bawah botol untuk drainase air, lalu masukkan tanah dan tanaman.",
+                    modal: "Rp 8.000 (Cat akrilik Rp 8.000)",
+                    harga: "Rp 15.000",
+                    laba: "Rp 15.000 - Rp 8.000 = Rp 7.000 per unit"
+                },
+                4: {
+                    kategori: "PLASTIK GUNA ULANG",
+                    judul: "Coaster / Alas Gelas dari Tutup Botol Plastik",
+                    ulasan: "Tatakan datar tahan air yang dibuat dari susunan atau lelehan tutup botol plastik bekas.",
+                    manfaat: "Mengurangi sampah tutup botol plastik, menghasilkan alas gelas yang tahan air, kuat, dan unik, serta tidak membutuhkan modal sama sekali karena semua bahan dari barang bekas.",
+                    alat: "<b>Alat :</b><br>1. Setrika baju<br>2. Cetakan bulat atau ring kecil (opsional)<br><br><b>Bahan :</b><br>1. 7-19 tutup botol plastik (ukuran sama)<br>2. Kertas roti / kertas baking",
+                    langkah: "1. Persiapan : Bersihkan tutup botol plastik dari kotoran atau stiker.<br>2. Penyusunan : Susun tutup botol di atas alas tahan panas dengan pola segi enam atau lingkaran rapat (satu tutup botol di tengah, dikelilingi tutup botol lainnya).<br>3. Pelelehan : Lapisi bagian atas susunan tutup botol dengan kertas roti. Panaskan setrika (suhu sedang ke tinggi), lalu tekan setrika di atas kertas roti secara perlahan dan merata selama 1-2 menit hingga plastik meleleh dan saling menyatu.<br>4. Finishing : Matikan setrika, biarkan dingin sebentar, lalu lepas kertas roti. Alas gelas plastik daur ulang yang unik dan tahan air siap digunakan!",
+                    modal: "Rp 0 (Tidak ada yang dibeli)",
+                    harga: "Rp 7.000",
+                    laba: "Rp 7.000 - Rp 0 = Rp 7.000 per unit"
+                },
+                5: {
+                    kategori: "PLASTIK GUNA ULANG",
+                    judul: "Bunga Hias Meja dari Sedotan Plastik Bekas",
+                    ulasan: "Kerajinan tangan berbentuk bunga lavender yang dibuat dari sampah sedotan dijadikan sebagai pajangan / hiasan.",
+                    manfaat: "Mengurangi sampah sedotan plastik, menghasilkan hiasan meja yang awet dan tidak layu, serta mempercantik ruangan dengan biaya yang sangat murah.",
+                    alat: "<b>Alat :</b><br>1. Gunting<br><br><b>Bahan :</b><br>1. Sedotan plastik warna-warni bekas (sekitar 15-20 buah, dicuci)<br>2. Lidi (sebagai tangkai)<br>3. Selotip hijau / kertas krep hijau<br>4. Botol kaca bekas kecil (sebagai vas)",
+                    langkah: "1. Pembersihan : Cuci sedotan hingga bersih dan keringkan.<br>2. Pembentukan Kelopak : Gunting sedotan secara memanjang, lalu potong-potong menjadi kelopak-kelopak bunga kecil atau gunting rumbai-rumbai halus di sepanjang sisi sedotan.<br>3. Merangkai Bunga : Gulungkan sedotan yang sudah digunting rumbai melingkari ujung kawat / lidi, lalu rekatkan dengan lem hingga membentuk mahkota bunga (seperti bunga mawar atau lavender).<br>4. Melapisi Tangkai : Lilitkan selotip hijau atau kertas krep mengelilingi kawat / lidi dari pangkal bunga hingga ke bawah untuk membentuk tangkai dan daun.<br>5. Finishing : Buat 5-7 tangkai bunga, lalu masukkan ke dalam botol kaca bekas yang sudah dibersihkan sebagai vas meja.",
+                    modal: "Rp 2.000 (Kertas krep hijau Rp 2.000)",
+                    harga: "Rp 10.000",
+                    laba: "Rp 10.000 - Rp 2.000 = Rp 8.000 per unit"
+                },
+                6: {
+                    kategori: "LOGAM",
+                    judul: "Gantungan Kunci Vintage dari Tutup Botol Logam",                    
+                    ulasan: "Aksesoris gantungan kunci yang memanfaatkan tutup botol logam bekas.",
+                    manfaat: "Mengurangi sampah tutup botol logam, menghasilkan aksesoris gantungan kunci yang unik dan bernilai jual, serta melatih kreativitas membuat kerajinan dari barang bekas.",
+                    alat: "<b>Alat :</b><br>1. Paku kecil dan palu<br><br><b>Bahan :</b><br>1. Tutup botol logam bekas (2 buah)<br>2. Ring gantungan kunci<br>3. Gambar / stiker kecil / potongan majalah bergambar unik<br>4. Lem Epoxy Resin bening (atau lem tembak bening)",
+                    langkah: "1. Pembersihan : Bersihkan tutup botol dari kotoran atau sisa minuman, lalu keringkan.<br>2. Pelubangan : Buat lubang kecil di salah satu pinggiran tutup botol menggunakan paku dan palu.<br>3. Pemasangan Gambar : Potong gambar menarik dari majalah bekas sesuai ukuran lingkaran dalam tutup botol, lalu tempelkan di dasar bagian dalam tutup botol.<br>4. Penuangan Resin / Lem : Tuangkan sedikit lem resin bening (atau lem tembak) di atas gambar hingga memenuhi cekungan tutup botol agar gambar terlindungi dan berefek kembung (3D / glass effect). Biarkan mengering keras.<br>5. Finishing : Masukkan ring gantungan kunci ke dalam lubang yang telah dibuat. Gantungan kunci siap dipasarkan!",
+                    modal: "Rp 500 (Ring gantungan kunci Rp 500)",
+                    harga: "Rp 5.000",
+                    laba: "Rp 5.000 - Rp 500 = Rp 4.500 per unit"
+                }
+            };
+            function lihat(no) {
+                var p = data[no];
+                document.getElementById("d-gambar").src = p.gambar;
+                document.getElementById("d-kategori").innerHTML = p.kategori;
+                document.getElementById("d-judul").innerHTML = p.judul;
+                document.getElementById("d-ulasan").innerHTML = p.ulasan;
+                document.getElementById("d-manfaat").innerHTML = p.manfaat;
+                document.getElementById("d-alat").innerHTML = p.alat;
+                document.getElementById("d-langkah").innerHTML = p.langkah;
+                document.getElementById("d-modal").innerHTML = p.modal;
+                document.getElementById("d-harga").innerHTML = p.harga;
+                document.getElementById("d-laba").innerHTML = p.laba;
+                document.getElementById("detail").style.display = "block";
+            }
+            function tutupDetail() {document.getElementById("detail").style.display = "none";}
+            function tutupLuar(e) {if (e.target.id == "detail") {tutupDetail();} }
+
+            // ANIMASI PAS SCROLL KE PRODUK
+            var semuaKartu = document.querySelectorAll(".kartu");
+            var pengamat = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry, i) {
+                    if (entry.isIntersecting) {
+                        setTimeout(function () {entry.target.classList.add("tampil");}, i * 100);
+                    }
+                });
+            }, {threshold: 0.1});
+            semuaKartu.forEach(function (k) {pengamat.observe(k);});
+
+            // KLIK MENU PRODUK - SCROLL HALUS + KASIH EFEK KEDIP
+            document.querySelector(".menu-produk").addEventListener("click", function (e) {
+                e.preventDefault();
+                var tujuan = document.getElementById("produk");
+                tujuan.scrollIntoView({behavior: "smooth", block: "start"});
+                // kasih efek kedip biar ketok kalau sudah sampai
+                setTimeout(function () {
+                    tujuan.classList.add("kedip");
+                    setTimeout(function () {tujuan.classList.remove("kedip");}, 1200);
+                }, 800);
+            });
+        </script>
+
+<!-- ===== MATEMATIKA ===== -->
+<section class="kotak-mapel" id="mapel"
+    style="display: block !important; width: 90% !important; max-width: 1150px !important; margin: 30px auto !important; float: none !important; clear: both !important;">
+    <h2>Matematika</h2>
+    <p class="subjudul">Mendesain iklan bundling produk daur ulang kolaboratif Matematika.</p>
+
+    <div class="daftar-pekerjaan"
+        style="display: grid !important; grid-template-columns: repeat(3, 1fr) !important; gap: 18px !important; align-items: start !important;">
+
+        <!-- ===== 1 - RISQAN ===== -->
+        <article class="kartu" style="display: block !important; width: 100% !important;">
+            <div class="foto-iklan">
+                <img src="./images/fotoiklan-risqan.jpeg" alt="Iklan Risqan">
+                <span class="tulisan-iklan">IKLAN 1</span>
+            </div>
+            <div class="isi-kartu">
+                <span class="label">PEKERJAAN 1 • NO. 24</span>
+                <h3>Muhammad Risqan Nuridho (24)</h3>
+                <p>Fan Cooler HP & Lampu Tidur Otomatis</p>
+                <button class="btn-hitung"
+                    onclick="var isi=document.getElementById('hitung-risqan'); var buka=isi.style.display==='block'; isi.style.display=buka?'none':'block'; this.innerHTML=buka?'Tampilkan perhitungan <span>∨</span>':'Sembunyikan perhitungan <span>∧</span>';">Tampilkan
+                    perhitungan <span>∨</span></button>
+                <div id="hitung-risqan" class="isi-hitung" style="display: none;">
+                    <h4>Pekerjaan Risqan</h4>
+                    <p><b>Misal :</b></p>
+                    <p>x = harga 1 unit fan cooler hp</p>
+                    <p>y = harga 1 unit lampu tidur otomatis</p>
+                    <div class="kotak-rumus">
+                        <p>3x + y = 175.000</p>
+                        <p>2x + 2y = 210.000</p>
+                    </div>
+                    <h4>Eliminasi</h4>
+                    <p>3x + y = 175.000 &nbsp; | ×2 | &nbsp; 6x + 2y = 350.000</p>
+                    <p>2x + 2y = 210.000 &nbsp; | ×1 | &nbsp; 2x + 2y = 210.000</p>
+                    <p>---------------------------------- −</p>
+                    <p><b>4x = 140.000</b></p>
+                    <p>x = 140.000 ÷ 4</p>
+                    <p><b>x = 35.000</b></p>
+                    <h4>Substitusi</h4>
+                    <p>2x + 2y = 210.000</p>
+                    <p>2 . 35.000 + 2y = 210.000</p>
+                    <p>70.000 + 2y = 210.000</p>
+                    <p>2y = 210.000 − 70.000</p>
+                    <p>2y = 140.000</p>
+                    <p>y = 140.000 ÷ 2</p>
+                    <p><b>y = 70.000</b></p>
+                    <div class="kotak-jawaban">
+                        <p><b>Jadi :</b></p>
+                        <p>Harga 1 unit fan cooler hp adalah <b>Rp 35.000</b></p>
+                        <p>Harga 1 unit lampu tidur otomatis adalah <b>Rp 70.000</b></p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- ===== 2 - MYRA ===== -->
+        <article class="kartu" style="display: block !important; width: 100% !important;">
+            <div class="foto-iklan">
+                <img src="./images/fotoiklan-myra.jpeg" alt="Iklan Myra">
+                <span class="tulisan-iklan">IKLAN 2</span>
+            </div>
+            <div class="isi-kartu">
+                <span class="label">PEKERJAAN 2 • NO. 27</span>
+                <h3>Myra Khoirunisa (27)</h3>
+                <p>Lampu Kipas & Lampu Mouse</p>
+                <button class="btn-hitung"
+                    onclick="var isi=document.getElementById('hitung-myra'); var buka=isi.style.display==='block'; isi.style.display=buka?'none':'block'; this.innerHTML=buka?'Tampilkan perhitungan <span>∨</span>':'Sembunyikan perhitungan <span>∧</span>';">Tampilkan
+                    perhitungan <span>∨</span></button>
+                <div id="hitung-myra" class="isi-hitung" style="display: none;">
+                    <h4>Pekerjaan Myra</h4>
+                    <p><b>Misal :</b></p>
+                    <p>x = harga 1 unit lampu kipas</p>
+                    <p>y = harga 1 unit lampu mouse</p>
+                    <div class="kotak-rumus">
+                        <p>3x + 2y = 176.000</p>
+                        <p>2x + y = 108.000</p>
+                    </div>
+                    <h4>Eliminasi</h4>
+                    <p>3x + 2y = 176.000 &nbsp; | ×1 | &nbsp; 3x + 2y = 176.000</p>
+                    <p>2x + y = 108.000 &nbsp; | ×2 | &nbsp; 4x + 2y = 216.000</p>
+                    <p>---------------------------------- −</p>
+                    <p><b>-1x = -40.000</b></p>
+                    <p><b>x = 40.000</b></p>
+                    <h4>Substitusi</h4>
+                    <p>2x + y = 108.000</p>
+                    <p>2 . 40.000 + y = 108.000</p>
+                    <p>80.000 + y = 108.000</p>
+                    <p>y = 108.000 − 80.000</p>
+                    <p><b>y = 28.000</b></p>
+                    <div class="kotak-jawaban">
+                        <p><b>Jadi :</b></p>
+                        <p>Harga 1 unit lampu kipas adalah <b>Rp 40.000</b></p>
+                        <p>Dan harga 1 unit lampu mouse adalah <b>Rp 28.000</b></p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- ===== 3 - WIWIK ===== -->
+        <article class="kartu" style="display: block !important; width: 100% !important;">
+            <div class="foto-iklan">
+                <img src="./images/fotoiklan-wiwik.jpeg" alt="Iklan Wiwik">
+                <span class="tulisan-iklan">IKLAN 3</span>
+            </div>
+            <div class="isi-kartu">
+                <span class="label">PEKERJAAN 3 • NO. 34</span>
+                <h3>Wiwik Tri Wulandari (34)</h3>
+                <p>Jam Dinding & Desk Organizer</p>
+                <button class="btn-hitung"
+                    onclick="var isi=document.getElementById('hitung-wiwik'); var buka=isi.style.display==='block'; isi.style.display=buka?'none':'block'; this.innerHTML=buka?'Tampilkan perhitungan <span>∨</span>':'Sembunyikan perhitungan <span>∧</span>';">Tampilkan
+                    perhitungan <span>∨</span></button>
+                <div id="hitung-wiwik" class="isi-hitung" style="display: none;">
+                    <h4>Pekerjaan Wiwik</h4>
+                    <p><b>Misal :</b></p>
+                    <p>x = harga 1 unit jam dinding</p>
+                    <p>y = harga 1 unit desk organizer</p>
+                    <div class="kotak-rumus">
+                        <p>x + y = 215.000</p>
+                        <p>2x + 3y = 495.000</p>
+                    </div>
+                    <h4>Eliminasi</h4>
+                    <p>x + y = 215.000 &nbsp; | ×3 | &nbsp; 3x + 3y = 645.000</p>
+                    <p>2x + 3y = 495.000 &nbsp; | ×1 | &nbsp; 2x + 3y = 495.000</p>
+                    <p>---------------------------------- −</p>
+                    <p><b>x = 150.000</b></p>
+                    <h4>Substitusi</h4>
+                    <p>x + y = 215.000</p>
+                    <p>150.000 + y = 215.000</p>
+                    <p>y = 215.000 − 150.000</p>
+                    <p><b>y = 65.000</b></p>
+                    <div class="kotak-jawaban">
+                        <p><b>Jadi :</b></p>
+                        <p>Harga 1 unit jam dinding adalah <b>Rp 150.000</b></p>
+                        <p>Dan harga 1 unit desk organizer adalah <b>Rp 65.000</b></p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- ===== BAHASA INDONESIA ===== -->
+<section class="kotak-bindo" id="bindo">
+    <h2>Bahasa Indonesia</h2>
+    <p class="subjudul-bindo">Menulis teks laporan hasil observasi secara logis dan sistematis.</p>
+
+    <div class="daftar-teks">
+
+        <!-- ===== 1 - MUHAMMAD RISQAN NURIDHO (24) ===== -->
+        <details class="baris-teks anim-1">
+            <summary class="isi-baris">
+                <span class="kiri-baris">
+                    <span class="btn-plus">+</span>
+                    <span class="label-teks">Teks LHO</span>
+                    <span class="nama-anak">Muhammad Risqan Nuridho (24)</span>
+                </span>
+                <span class="lihat-teks"><span class="teks-buka">Lihat Teks</span><span class="teks-tutup">Sembunyikan
+                        Teks</span></span>
+            </summary>
+            <div class="isi-teks-lho">
+                <h3 class="judul-teks">Teks LHO Daur Ulang Menjadi Cemerlang</h3>
+                <p>daur ulang menjadi cemerlang merupakan kegiatan kolaborasi yang dilakukan untuk menciptakan
+                    berbagai produk kreatif dengan memanfaatkan barang-barang bekas. Salah satu hasil dari kegiatan ini
+                    adalah alat penyiraman tanaman otomatis yang dibuat sebagai bentuk inovasi sederhana dalam bidang
+                    lingkungan dan teknologi. Produk ini bertujuan untuk membantu manusia dalam merawat tanaman
+                    sekaligus mengurangi penggunaan barang baru melalui pemanfaatan bahan bekas.</p>
+                <p>Alat penyiraman tanaman otomatis terdiri dari beberapa bagian yang memiliki fungsi berbeda, yaitu
+                    sensor kelembapan tanah, pompa air, selang, tempat penampungan air, dan beberapa komponen pendukung
+                    lainnya. Sensor berfungsi untuk mengetahui tingkat kelembapan tanah, sedangkan pompa bertugas
+                    mengalirkan air melalui selang menuju tanaman. Alat ini dirancang dengan memanfaatkan bahan-bahan
+                    yang mudah ditemukan serta barang bekas yang masih dapat digunakan. Setiap bagian disusun sedemikian
+                    rupa agar dapat bekerja secara teratur dan mempermudah proses penyiraman tanaman.</p>
+                <p>Pembuatan alat penyiraman tanaman otomatis memberikan manfaat dalam membantu menjaga kebutuhan air
+                    pada tanaman. Alat ini dapat mengurangi pekerjaan menyiram tanaman secara langsung sehingga lebih
+                    praktis dan efisien bagi penggunanya. Kegiatan ini juga memberikan manfaat bagi lingkungan karena
+                    mengajarkan pentingnya mengolah barang bekas menjadi produk baru yang memiliki nilai manfaat. Selain
+                    itu, proyek ini dapat melatih kemampuan siswa dalam berpikir kreatif, memecahkan masalah, membagi
+                    tugas, dan bekerja sama dengan anggota kelompok. Melalui kegiatan tersebut, siswa dapat memahami
+                    bahwa barang bekas masih memiliki potensi untuk dijadikan produk yang berguna dalam kehidupan
+                    sehari-hari.</p>
+            </div>
+        </details>
+
+        <!-- ===== 2 - MYRA KHOIRUNISA (27) ===== -->
+        <details class="baris-teks anim-2">
+            <summary class="isi-baris">
+                <span class="kiri-baris">
+                    <span class="btn-plus">+</span>
+                    <span class="label-teks">Teks LHO</span>
+                    <span class="nama-anak">Myra Khoirunisa (27)</span>
+                </span>
+                <span class="lihat-teks"><span class="teks-buka">Lihat Teks</span><span class="teks-tutup">Sembunyikan
+                        Teks</span></span>
+            </summary>
+            <div class="isi-teks-lho">
+                <h3 class="judul-teks">Teks Laporan Hasil Observasi<br>“Daur Ulang Menjadi Cemerlang”</h3>
+                <p>Proyek pembuatan mesin penyiram tanaman otomatis ini dilatarbelakangi oleh keinginan untuk
+                    memanfaatkan barang-barang bekas (daur ulang) sekaligus menciptakan solusi praktis bagi perawatan
+                    tanaman tanpa memerlukan tenaga manusia secara terus menerus. Dengan memanfaatkan prinsip fisika
+                    dasar dan komponen elektronika analog, alat ini dapat bekerja secara mandiri mendeteksi kekeringan
+                    tanah dan mengalirkan air.</p>
+                <p>Sebagian besar komponen yang digunakan dalam pembuatan alat ini berasal dari barang bekas di sekitar
+                    rumah:</p>
+                <ul class="list-teks">
+                    <li><b>Botol Plastik Bekas Air Mineral:</b> Digunakan sebagai wadah penampung air.</li>
+                    <li><b>Modul Sensor Kelembapan Tanah (Soil Moisture Sensor):</b> Komponen utama detektor kekeringan
+                        (tanpa mikrokontroler, dihubungkan langsung via modul relay).</li>
+                    <li><b>Modul Relay 5V:</b> Berfungsi sebagai saklar otomatis yang digerakkan oleh sinyal dari
+                        sensor.</li>
+                    <li><b>Selang Kecil Bekas Akuarium:</b> Sebagai jalur mengalirnya air dari wadah ke tanaman.</li>
+                    <li><b>Pompa Air Mini DC bekas akuarium kecil:</b> Untuk menyedot dan mendorong air ke tanaman.</li>
+                    <li><b>Baterai 1,5V atau Adaptor Bekas:</b> Sebagai sumber tenaga listrik arus searah (DC).</li>
+                </ul>
+                <ol class="list-teks">
+                    <li><b>Deteksi Kelembapan:</b> Dua probe sensor kelembapan tanah ditancapkan ke media tanam (pot).
+                    </li>
+                    <li><b>Penerimaan Sinyal:</b> Ketika tanah dalam kondisi kering, hambatan listrik di dalam tanah
+                        meningkat. Kondisi ini dibaca oleh modul sensor untuk mengirimkan arus listrik kecil ke Modul
+                        Relay.</li>
+                    <li><b>Aktivasi Saklar:</b> Modul relay bertindak sebagai saklar otomatis. Ketika mendapat pemicu
+                        dari sensor, relay akan menghubungkan arus listrik utama dari baterai/adaptor menuju Pompa Air
+                        Mini.</li>
+                    <li><b>Penyiraman Otomatis:</b> Pompa air menyala dan mengalirkan air melalui selang kecil menuju ke
+                        pangkal tanaman.</li>
+                    <li><b>Pemutusan Aliran:</b> Ketika air telah meresap dan tanah menjadi basah, hambatan listrik
+                        tanah menurun. Sensor mendeteksi perubahan ini dan memutus arus ke relay, sehingga pompa air
+                        mati secara otomatis.</li>
+                </ol>
+                <ul class="list-teks">
+                    <li><b>Ramah Lingkungan:</b> Memanfaatkan limbah plastik dan barang elektronik bekas menjadi alat
+                        yang bernilai guna tinggi.</li>
+                    <li><b>Hemat Biaya:</b> Tidak memerlukan komponen mahal seperti mikrokontroler atau komputer untuk
+                        pemrogramannya.</li>
+                    <li><b>Praktis dan Efisien:</b> Sangat cocok diterapkan di rumah tangga atau pekarangan sempit bagi
+                        pemula yang ingin merawat tanaman hias tanpa takut lupa menyiram.</li>
+                </ul>
+                <p>Proyek “Daur Ulang Menjadi Cemerlang” membuktikan bahwa teknologi otomatisasi tidak selalu harus
+                    rumit atau melibatkan coding. Dengan kreativitas memanfaatkan barang bekas dan pemahaman dasar
+                    rangkaian elektronika analog, kita dapat menciptakan alat penyiram tanaman otomatis yang fungsional,
+                    hemat biaya, dan mendukung gerakan pelestarian lingkungan.</p>
+            </div>
+        </details>
+
+        <!-- ===== 3 - WIWIK TRI WULANDARI (34) ===== -->
+        <details class="baris-teks anim-3">
+            <summary class="isi-baris">
+                <span class="kiri-baris">
+                    <span class="btn-plus">+</span>
+                    <span class="label-teks">Teks LHO</span>
+                    <span class="nama-anak">Wiwik Tri Wulandari (34)</span>
+                </span>
+                <span class="lihat-teks"><span class="teks-buka">Lihat Teks</span><span class="teks-tutup">Sembunyikan
+                        Teks</span></span>
+            </summary>
+            <div class="isi-teks-lho">
+                <h3 class="judul-teks">Daur Ulang Menjadi Cemerlang</h3>
+                <p>Daur ulang menjadi cemerlang merupakan proyek kolaborasi yang bertujuan untuk memanfaatkan
+                    barang-barang bekas menjadi produk baru yang memiliki nilai guna dan bermanfaat bagi kehidupan
+                    sehari-hari. Salah satu produk yang dihasilkan dalam proyek ini adalah penyiraman tanaman otomatis.
+                    Alat ini dibuat sebagai bentuk inovasi sederhana yang menggabungkan kreativitas dan pemanfaatan
+                    teknologi untuk membantu proses perawatan tanaman. Selain itu, pembuatan produk ini juga bertujuan
+                    untuk mengurangi limbah dengan menggunakan barang bekas yang masih layak pakai.</p>
+                <p>Penyiraman tanaman otomatis merupakan alat yang dirancang untuk membantu menyiram tanaman berdasarkan
+                    kondisi kelembapan tanah. Alat ini bekerja dengan bantuan sensor kelembapan tanah yang mendeteksi
+                    kondisi tanah, kemudian sistem akan mengatur pompa air untuk mengalirkan air menuju tanaman melalui
+                    selang, sehingga proses penyiraman dapat berlangsung secara otomatis. Dalam proses pembuatannya,
+                    produk ini membutuhkan beberapa alat dan bahan sebagai berikut:</p>
+                <p><b>Alat:</b></p>
+                <ul class="list-teks">
+                    <li><b>Gunting / cutter,</b> digunakan untuk memotong dan merapikan bahan sesuai kebutuhan.</li>
+                    <li><b>Isolasi listrik,</b> digunakan untuk melindungi sambungan kabel agar lebih aman.</li>
+                    <li><b>Lem tembak,</b> digunakan untuk merekatkan bagian-bagian alat agar tidak mudah lepas.</li>
+                    <li><b>Obeng kecil,</b> digunakan untuk membantu memasang atau mengencangkan komponen.</li>
+                </ul>
+                <p><b>Bahan:</b></p>
+                <ul class="list-teks">
+                    <li><b>Sensor kelembapan tanah,</b> berfungsi untuk mendeteksi tingkat kelembapan tanah pada
+                        tanaman.</li>
+                    <li><b>Relay 5V,</b> berfungsi sebagai sakelar elektronik untuk mengatur aliran listrik menuju
+                        pompa.</li>
+                    <li><b>Pompa air mini DC 3V–6V,</b> digunakan untuk memindahkan air dari wadah menuju tanaman.</li>
+                    <li><b>Charger HP bekas,</b> dimanfaatkan sebagai sumber daya listrik untuk menghidupkan rangkaian.
+                    </li>
+                    <li><b>Kabel jumper / kabel bekas,</b> digunakan untuk menghubungkan komponen-komponen elektronik.
+                    </li>
+                    <li><b>Selang air kecil,</b> berfungsi sebagai saluran untuk mengalirkan air menuju tanaman.</li>
+                    <li><b>Botol plastik bekas,</b> digunakan sebagai wadah penampungan air.</li>
+                    <li><b>Pot tanaman,</b> menjadi tempat tanaman yang akan mendapatkan penyiraman otomatis.</li>
+                </ul>
+                <p>Setiap alat dan bahan memiliki fungsi yang berbeda, tetapi saling mendukung dalam proses pembuatan
+                    produk. Pemanfaatan botol plastik bekas dan kabel bekas juga menjadi salah satu bentuk pengurangan
+                    limbah yang dapat diterapkan dalam kehidupan sehari-hari.</p>
+                <p>Penyiraman tanaman otomatis memiliki berbagai manfaat, terutama dalam membantu proses perawatan
+                    tanaman. Alat ini dapat mempermudah penyiraman tanpa harus dilakukan secara manual setiap saat.
+                    Selain itu, sensor kelembapan tanah membantu mengetahui kondisi tanah sehingga penyiraman dapat
+                    disesuaikan dengan kebutuhan tanaman. Penggunaan pompa dan selang juga membuat air lebih mudah
+                    dialirkan menuju tanaman.</p>
+                <p>Dari segi lingkungan, pembuatan produk ini dapat mengurangi jumlah sampah dengan memanfaatkan barang
+                    bekas seperti botol plastik, charger HP, dan kabel yang masih dapat digunakan. Proyek ini juga
+                    memberikan pengalaman kepada siswa untuk mengenal komponen elektronik serta memahami cara kerja alat
+                    sederhana. Melalui kegiatan kolaborasi, siswa dapat melatih kreativitas, keterampilan, ketelitian,
+                    tanggung jawab, dan kerja sama dalam menghasilkan produk yang bermanfaat. Kegiatan ini membuktikan
+                    bahwa barang bekas tidak selalu menjadi sampah, karena dengan ide dan pengolahan yang tepat, barang
+                    tersebut dapat diubah menjadi produk yang memiliki nilai guna dalam kehidupan sehari-hari.</p>
+            </div>
+        </details>
+
+    </div>
+</section>
+
+<!-- ===== BAHASA INGGRIS ===== -->
+<section class="kotak-english" id="english"
+    style="display: block !important; width: 90% !important; max-width: 1150px !important; margin: 30px auto !important; float: none !important; clear: both !important;">
+    <h2>English</h2>
+    <p class="subjudul-english">Writing a procedure text / report text logically and systematically.</p>
+
+    <div class="daftar-teks">
+
+        <!-- ===== 1 - RISQAN ===== -->
+        <details class="baris-teks anim-1">
+            <summary class="isi-baris">
+                <span class="kiri-baris">
+                    <span class="btn-plus">+</span>
+                    <span class="label-teks">Procedure Text</span>
+                    <span class="nama-anak">Muhammad Risqan Nuridho (24)</span>
+                </span>
+                <span class="lihat-teks"><span class="teks-buka">View Text</span><span class="teks-tutup">Hide
+                        Text</span></span>
+            </summary>
+            <div class="isi-teks-lho">
+                <h3 class="judul-teks">Soil Watering Machine From Used Goods</h3>
+                <p>The sustainable utilization movement of household waste and electronic waste has successfully
+                    realized an automatic plant watering machine designed conventionally without involving any coding
+                    process or programming scripts at all.</p>
+                <p>This smart device relies on a transparent used plastic bottle on the outside of the pot as a backup
+                    clean water supplier, which is periodically pumped and channeled by a small mini water pump through
+                    a flexible hose network toward the root zone.</p>
+                <p>The watering system control is fully supported by a soil moisture sensor module capable of directly
+                    and accurately monitoring the drying level of the growing medium inside the pot.</p>
+                <p>By assembling remaining functional electronic components inside a sturdy protective plastic box
+                    container without using any glass elements whatsoever, this innovation becomes a highly reliable
+                    practical solution to consistently maintain the moisture level of ornamental plants while helping
+                    reduce the accumulation of plastic waste in the surrounding environment.</p>
+                <ul class="list-teks">
+                    <li><b>Environmentally Friendly:</b> Reuses plastic bottles and used electronic components.</li>
+                    <li><b>Practical:</b> Waters plants automatically without manual watering every day.</li>
+                    <li><b>Low Cost:</b> Made without coding, without expensive components.</li>
+                    <li><b>Consistent:</b> Keeps soil moisture stable for ornamental plants.</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- ===== 2 - MYRA ===== -->
+        <details class="baris-teks anim-2">
+            <summary class="isi-baris">
+                <span class="kiri-baris">
+                    <span class="btn-plus">+</span>
+                    <span class="label-teks">Procedure Text</span>
+                    <span class="nama-anak">Myra Khoirunisa (27)</span>
+                </span>
+                <span class="lihat-teks"><span class="teks-buka">View Text</span><span class="teks-tutup">Hide
+                        Text</span></span>
+            </summary>
+            <div class="isi-teks-lho">
+                <h3 class="judul-teks">How Recycled Materials and Technology Are Transformed into an Automatic Plant
+                    Watering Machine</h3>
+                <p>Plastic waste and electronic scrap are major environmental concerns caused by modern daily
+                    consumption and technological advancements. Used plastic bottles and leftover electronic components
+                    are frequently discarded once they are empty or no longer needed. However, these items contain
+                    materials that can still be reused creatively. One practical way to manage this waste is by
+                    transforming used plastic containers, boards, and electronic parts into an automatic plant watering
+                    machine. This transformation shows how household waste and technology can become a useful and
+                    valuable product.</p>
+                <p>The transformation begins when an unused plastic gallon bottle or container is prepared alongside a
+                    microcontroller board, a mini water pump, a soil moisture sensor, and flexible hoses. The plastic
+                    bottle is cleaned and modified to serve as a water reservoir, while the electronic components are
+                    wired together on a breadboard and connected to the microcontroller. The function of these discarded
+                    and loose materials changes significantly. Instead of contributing to environmental pollution, they
+                    are integrated into a functional, automated circuit system designed to monitor and sustain plant
+                    life.</p>
+                <p>The assembled electronic circuit, sensor, and pump are integrated with the water container and placed
+                    near the potted plant to create a complete automated system. Through precise connection, the soil
+                    moisture sensor is inserted into the plant soil to detect dryness levels, while the pump and hoses
+                    are linked to channel water automatically from the reservoir. When the soil becomes dry, the sensor
+                    triggers the microcontroller to activate the pump, delivering water directly to the plant roots.
+                    Once all components are securely wired and positioned, the individual parts function together as one
+                    automated watering unit.</p>
+                <p>As a result, discarded plastic and electronic parts are transformed into an automatic plant watering
+                    machine that offers high practical value. The product can be used to maintain plant health
+                    efficiently without requiring manual watering, while also serving as an innovative technological
+                    project. This transformation reduces plastic and electronic waste while promoting the creative reuse
+                    of available materials. Therefore, recycling household and electronic components into automated
+                    devices is an effective way to support a more sustainable environment.</p>
+                <ul class="list-teks">
+                    <li><b>Environmentally Friendly:</b> Reduces plastic and electronic waste.</li>
+                    <li><b>Practical:</b> Waters plants automatically without manual watering.</li>
+                    <li><b>Innovative:</b> Turns household waste into a valuable technological product.</li>
+                    <li><b>Sustainable:</b> Promotes creative reuse of available materials.</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- ===== 3 - WIWIK ===== -->
+        <details class="baris-teks anim-3">
+            <summary class="isi-baris">
+                <span class="kiri-baris">
+                    <span class="btn-plus">+</span>
+                    <span class="label-teks">Procedure Text</span>
+                    <span class="nama-anak">Wiwik Tri Wulandari (34)</span>
+                </span>
+                <span class="lihat-teks"><span class="teks-buka">View Text</span><span class="teks-tutup">Hide
+                        Text</span></span>
+            </summary>
+            <div class="isi-teks-lho">
+                <h3 class="judul-teks">Automatic Plant Watering System From Recycled Materials</h3>
+                <p>An automatic plant watering system is a creative and useful innovation designed to make watering
+                    plants easier and more efficient. This product is part of a collaborative school project entitled
+                    "Daur Ulang Menjadi Cemerlang". The project aims to turn used materials into valuable and useful
+                    products. By reusing waste materials, we can reduce environmental pollution and create something
+                    beneficial for everyday life.</p>
+                <p>This automatic plant watering system is made from recycled materials, such as used plastic bottles,
+                    small hoses, and other simple materials. These materials are arranged to create a watering system
+                    that can distribute water to plants through a simple mechanism.</p>
+                <p>The way it works is quite simple. Water is stored in a container made from a used plastic bottle and
+                    then flows through a small hose to reach the plants. This system helps provide water for plants more
+                    regularly and makes plant care easier.</p>
+                <p>This product has several benefits. It saves time and effort, helps people take care of their plants,
+                    and reduces plastic waste by reusing used materials. Besides that, making this product also
+                    encourages creativity, teamwork, and environmental awareness among students.</p>
+                <p>Through this project, we learn that materials that are usually considered waste can still be
+                    transformed into useful products. We also learn the importance of protecting the environment through
+                    simple recycling activities.</p>
+                <p>In conclusion, the automatic plant watering system from recycled materials is a simple, creative, and
+                    environmentally friendly innovation. This product makes watering plants easier while giving used
+                    materials a new purpose. Through the project "Daur Ulang Menjadi Cemerlang", we hope to inspire
+                    people to recycle more, develop their creativity, and contribute to creating a cleaner and greener
+                    environment.</p>
+                <ul class="list-teks">
+                    <li><b>Time Saving:</b> Saves time and effort in watering plants.</li>
+                    <li><b>Environmentally Friendly:</b> Reduces plastic waste by reusing used materials.</li>
+                    <li><b>Creative:</b> Encourages creativity, teamwork, and environmental awareness.</li>
+                </ul>
+            </div>
+        </details>
+
+    </div>
+</section>
+
+<section id="anggota" class="kotak-anggota">
+    <h2>Anggota Kelompok</h2>
+
+    <div class="daftar-anggota">
+
+        <!-- ===== 1 - RISQAN ===== -->
+        <article class="kartu-anggota anim-1">
+            <div class="foto-anggota">
+                <img src="./images/fotosmp-risqan.jpeg" alt="Muhammad Risqan Nuridho">
+            </div>
+            <h3>Muhammad Risqan Nuridho</h3>
+            <p class="kelas-anggota">X PPLG 1 (24)</p>
+            <div class="sosmed">
+                <a href="https://instagram.com/muhamad_risqan" target="_blank" title="Instagram Risqan">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="IG">
+                </a>
+                <a href="https://wa.me/6285640459849" target="_blank" title="WhatsApp Risqan">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WA">
+                </a>
+                <a href="mailto:risqan.p26105@satamail.my.id" title="Email Risqan">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+                </a>
+            </div>
+            <p class="ket-ig">muhamad risqan</p>
+        </article>
+
+        <!-- ===== 2 - MYRA ===== -->
+        <article class="kartu-anggota anim-2">
+            <div class="foto-anggota">
+                <img src="./images/fotosmp-myra.jpeg" alt="Myra Khoirunisa">
+            </div>
+            <h3>Myra Khoirunisa</h3>
+            <p class="kelas-anggota">X PPLG 1 (27)</p>
+            <div class="sosmed">
+                <a href="https://instagram.com/myr.khrnsa" target="_blank" title="Instagram Myra">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="IG">
+                </a>
+                <a href="https://wa.me/6287766427136" target="_blank" title="WhatsApp Myra">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WA">
+                </a>
+                <a href="mailto:myra.p26114@satamail.my.id" title="Email Myra">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+                </a>
+            </div>
+            <p class="ket-ig">@myr.khrnsa</p>
+        </article>
+
+        <!-- ===== 3 - WIWIK ===== -->
+        <article class="kartu-anggota anim-3">
+            <div class="foto-anggota">
+                <img src="./images/fotosmp-wiwik.jpeg" alt="Wiwik Tri Wulandari">
+            </div>
+            <h3>Wiwik Tri Wulandari</h3>
+            <p class="kelas-anggota">X PPLG 1 (34)</p>
+            <div class="sosmed">
+                <a href="https://instagram.com/ulndrwwik" target="_blank" title="Instagram Wiwik">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="IG">
+                </a>
+                <a href="https://wa.me/6281326152101" target="_blank" title="WhatsApp Wiwik">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WA">
+                </a>
+                <a href="mailto:wiwik.p26140@satamail.my.id" title="Email Wiwik">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+                </a>
+            </div>
+            <p class="ket-ig">@ulndrwwik</p>
+        </article>
+
+    </div>
+</section>
+
+    <section id="anggota" class="kotak-anggota">
+
+
+<!-- ===== KONTAK KAMI ===== -->
+<section id="kontak" class="kotak-kontak">
+    <h2>Kontak Kami</h2>
+    <p class="subjudul-kontak">Hubungi kami jika ada kritik, saran, dan pesan</p>
+
+    <div class="daftar-kontak">
+
+        <!-- KIRI - FORM -->
+        <div class="form-kontak anim-1">
+            <input type="text" id="nama-kontak" placeholder="Nama Kamu">
+            <input type="email" id="email-kontak" placeholder="Email Kamu">
+            <textarea id="pesan-kontak" placeholder="Tulis pesan kamu di sini..." rows="5"></textarea>
+            <button class="btn-wa" onclick="kirimWA()">Kirim pesan via WhatsApp &nbsp; →</button>
+        </div>
+
+        <!-- KANAN - HUBUNGI KAMI -->
+        <div class="info-kontak anim-2">
+            <h3>Hubungi Kami</h3>
+
+            <p class="label-info">Alamat:</p>
+            <p class="isi-info">Jl. Darun Na'im, Karangduren, Kec. Tengaran,<br>Kabupaten Semarang, Jawa Tengah 50775
+            </p>
+
+            <p class="label-info">Email:</p>
+            <a class="isi-info link-info" href="mailto:wiwik.p26140@satamail.my.id">wiwik.p26140@satamail.my.id</a>
+
+            <p class="label-info">WhatsApp:</p>
+            <a class="isi-info link-info link-wa" href="https://wa.me/6287766427163" target="_blank">0877-6642-7163</a>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    function kirimWA() {
+        var nama = document.getElementById('nama-kontak').value;
+        var email = document.getElementById('email-kontak').value;
+        var pesan = document.getElementById('pesan-kontak').value;
+        if (!nama || !pesan) {alert('Isi Nama Kamu dan pesan dulu ya!'); return;}
+        var teks = "Halo! Saya " + nama + " (" + email + ").%0A%0A" + pesan;
+        window.open("https://wa.me/6287766427163?text=" + encodeURIComponent("Halo! Saya " + nama + " (" + email + ").\n\n" + pesan), "_blank");
+    }
+</script>
+
+<!-- BAGIAN FOOTER -->
+
+<footer>
+    <p>
+        DAUR ULANG MENJADI CEMERLANG
+        &copy; 2026
+    </p>
+
+    <p>
+        Kelompok 5 - X PPLG 1
+    </p>
+</footer>
+
+</body>
+
+</html>
